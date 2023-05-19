@@ -72,4 +72,11 @@ git checkout feature-login
 git branch landig-content
 git branch -add
 
+---pasos
+git status
+git add .
+git commit -m "Mensaje"
+git status
+git log
+git push -u origin main
 
