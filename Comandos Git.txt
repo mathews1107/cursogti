@@ -1,0 +1,75 @@
+git init 
+(Inicializa el repositorio git)
+
+git config --global user.name "usuario" 
+(establece el usuario a nivel global en git)
+
+git config --global user.email "correo" 
+(establece el email a nivel global en git)
+
+git status 
+(muestra el estado del repo)
+
+git add "nombre archivo"
+git add *.extension
+git add carpeta/ 
+(Permite agregar un fichero sin seguimiento(rojo) al stage(verde))
+
+git commit -m "mensaje" 
+(Permite registrar un cambio en el repo)
+
+git log
+(Permite ver el historial de cambios en el repo)
+
+git reset --soft idCommit
+(Permite volver a un punto de registro en el repositorio sin realizar eliminicaciones de ficheros no registrados)
+
+git reset --hard idCommit
+(Permite volver a un punto de registro en el repositorio pudiendo
+ realizar eliminicaciones de ficheros no registrados)
+
+git reflog
+(permite revisar el historial completo de acciones en el repo)
+
+---------------------------------------------------------------------------------------------------
+
+https://github.com/mathews1107/cursogti.git
+
+or push an existing repository from the command line
+git remote add origin https://github.com/mathews1107/cursogti.git
+git branch -M main
+git push -u origin main
+
+
+git commit -m "first commit"
+git add 
+git commit -m "2 commit"
+
+
+----------
+git --version
+git help
+git init
+git config --global user.name "su nombre"
+git config --global user.email"su mail"
+git config --global -e
+
+git --version --> version de git
+git help -->ayuda de git
+git init -->inicializar repo
+git config --global user.name "Nombre"
+git config --global user.email "Correo"
+clear --> Limpiar consola
+git status --> estado de historial de archivos
+git config --global -e -->entrar a editar datos de user
+git add (archivo) --> agregar archivo a    git add .
+git commit -m "Mensaje"--> hacer commit del repo
+git log --> ver versionamiento realizados
+
+
+git branch feature-login
+git checkout feature-login
+git branch landig-content
+git branch -add
+
+
